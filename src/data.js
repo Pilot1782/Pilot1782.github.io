@@ -24,7 +24,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "Pilot1782";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +34,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy creating python apps and learning about java apps. I am a self-taught developer and I am always looking for new ways to improve myself.";
 
 /* Skills
  ************************************************************** 
@@ -44,48 +44,28 @@ export const skillData = [
   {
     id: 1,
     skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    name: "Python3",
   },
   {
     id: 2,
     skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    name: "Java",
   },
   {
     id: 3,
     skill: <SiJavascript className="display-4" />,
-    name: "JavaScript",
+    name: "C++",
   },
   {
     id: 4,
     skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
+    name: "HTML",
   },
   {
     id: 5,
     skill: <FaReact className="display-4" />,
-    name: "React",
-  },
-  {
-    id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
-  },
-  {
-    id: 9,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
-  },
+    name: "PythOWO",
+  }
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -95,12 +75,12 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["bad_copenheimer"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "bad_copenheimer",
     image: Logo,
   },
 ];
