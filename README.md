@@ -1,0 +1,1 @@
+![](https://tenor.com/view/python-programming-c-programming-gif-24295559)
